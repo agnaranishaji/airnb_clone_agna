@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.h2_element {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+.logonav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.griding {
+  align-self: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.star {
+  width: 20px;
+}
+.grey {
+  color: #918e9b;
+}
+
+.contact-card {
+  width: 300px;
+  flex-wrap: nowrap;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.card1 {
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+.cards {
+  display: inline-flex;
+  padding: 20px;
+}
+
+.cards:hover {
+  border-radius: 12px;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card--badge {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: white;
+  position: absolute;
+  font-weight: bold;
+}
